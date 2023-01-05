@@ -38,9 +38,6 @@ void main() {
 
   print(namedParamRequired(d: 42));
 
-  // Fat Arrow Function
-  print(names());
-
   print(sayHello);
 }
 
