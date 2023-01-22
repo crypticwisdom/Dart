@@ -6,7 +6,7 @@ void main() {
     Use cases:
     - Use for-in loop when you are looping through the items of an iterable like List.
     - Use for loop whe the number of times you want to loop is definate (Known).
-    - use while loops when the number of times you want to loop is indefinate (Unknown).
+    - Use while loops when the number of times you want to loop is indefinate (Unknown).
 
     LABEL : This is used as an identifier for a loop or control statements.
      - It is a user defined identifier that is specified before or at the TOP of the loop header 
@@ -25,6 +25,7 @@ void main() {
   }
 
   var count = 0;
+
   while_loop:
   while (count < 4) {
     print("while loop with Label");
@@ -49,4 +50,21 @@ void main() {
       print("$a - $b");
     }
   }
+
+  ///  For-in loop
+
+  ///  for_in_label:
+  ///  for (String i in Iterable) {
+  ///     code ...
+  /// }
+  ///
+
+  List<String> list_of_string = ["a", "b", "c", "d"];
+
+  list_of_string.forEach((element) {
+    var i = 0;
+    print("${element} is an element ${++i} ${list_of_string.indexOf(element)}");
+    print("I can still perform other operations here.");
+    
+  });
 }

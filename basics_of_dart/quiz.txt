@@ -1,0 +1,49 @@
+Basic Dart Practice Questions
+    Write a program to print your name in Dart.
+    Write a program to print Hello I am “John Doe” and Hello I’am “John Doe” with single and double quotes.
+    Declare constant type** of int set value 7.
+    Write a program in Dart that finds simple interest. Formula= (p * t * r) / 100
+    Write a program to print a square of a number using user input.
+    Write a program to print full name of a from first name and last name using user input.
+    Write a program to find quotient and remainder of two integers.
+    Write a program to swap two numbers.
+    Write a program in Dart to remove all whitespaces from String.
+    Write a dart program to convert String to int.
+    Suppose, you often go to restaurant with friends and you have to split amount of bill. Write a program to calculate split amount of bill. Formula= (total bill amount) / number of people
+
+
+Question For Practice 2
+    Write a dart program to check if the number is odd or even.
+    Write a dart program to check whether a character is a vowel or consonant.
+    Write a dart program to check whether a number is positive, negative, or zero.
+    Write a dart program to print your name 100 times.
+    Write a dart program to calculate the sum of natural numbers.
+    Write a dart program to generate multiplication tables of 5.
+    Write a dart program to generate multiplication tables of 1-9.
+    Write a dart program to create a simple calculator that performs addition, subtraction, multiplication, and division.
+    Write a dart program to print 1 to 100 but not 41.
+
+
+Question For Practice 3
+    Write a program in Dart to print your own name using function.
+    Write a program in Dart to print even numbers between intervals using function
+    Write a program in Dart that generates random password.
+    Write a program in Dart that find the area of a circle using function.
+    Write a program in a dart that implements the Pythagorean theorem using function.
+    Write a program in Dart to reverse a String using function.
+    Write a program in Dart to calculate power of a certain number. For e.g 5^3=125
+
+
+Question For Practice 4
+    Create a list of names and print all names using list.
+    Create a list of names and print all names using set.
+    Create a program thats reads list of expenses amount using user input and print total.
+    Create an empty list of type string called days. Use the add method to add names of 7 days and print all days.
+    Add your 7 friend names to the list. Use where to find a name that starts with alphabet a.
+    Create a map with name, address, age, country keys and store values to it. Update country name to other country and print all keys and values.
+    Create a map with name, phone keys and store some values to it. Use where to find all keys that have length 4.
+    Create a simple to-do application that allows user to add, remove, and view their task.
+
+
+
+

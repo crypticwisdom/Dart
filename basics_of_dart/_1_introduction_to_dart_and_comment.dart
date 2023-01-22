@@ -33,9 +33,10 @@ void main(List<String> args) {
 
 
   */
+
   // Second type of commenting.
 
-  /// Commet for documenting.
+  /// Comment for documenting.
 
   /*
     

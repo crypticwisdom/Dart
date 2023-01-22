@@ -5,10 +5,19 @@ void main() {
 
 
     Syntax:
-     returnType functionName(type name){
+     - returnType functionName(type name){
         // code
-     }
+     } // Normal Function.
 
+    - returnType functionName(parameters...) => expression; // Arrow Function. 
+       /// (For functions that has only one expression).
+       /// Note: The arrow function is used to make your code short.=> expr syntax is a shorthand for { return expr; }.
+    - (){
+
+    }; // Anonymous Function
+
+
+    Notes:
      - A function must specific a return_type. 
      - A return_type is simply the datatype of the value that will be returned by the function.
      - A function returns null by default if any value is not being returned.
@@ -27,15 +36,27 @@ void main() {
     These can be followed either by named parameters or by optional positional 
     parameters (but not both).
 
+    
+    - Positional Parameter In Dart: In positional parameters, you must supply the 
+    arguments in the same order as you defined on parameters when you wrote the 
+    function. If you call the function with the parameter in the wrong order, 
+    you will get the wrong result.
+
     - Named parameters are like keyword params in Python. key and value pair.
     - Named parameter uses {}. e.g {String? named} -> null OR  {String name = "Wisdom"} -> with a value
     - Optional Positional Params uses - []. e.g [int? ds] -> null OR [int i = 0]
-    - 
+    
+    Key Points
+    - Note: The main objective of the function is DRY(Don’t Repeat Yourself)
+    - In dart function are also objects.
+    - You should follow the lowerCamelCase naming convention while naming function.
+    - You should follow the lowerCamelCase naming convention while naming function parameters.
+
 
   */
+
   print(getArea(3, 4));
   print(voidFunction());
-
   print(namedParamRequired(d: 42));
 
   print(sayHello);
@@ -90,15 +111,25 @@ int namedParamRequired({required int d}) {
   return d;
 }
 
-// Fat Arrow function
-String s(String name) => "$name is Saying hello";
-var sayHello = s("Wisdom");
+// Fat Arrow /  function /
+String func_name(String name) => "$name is Saying hello";
+var sayHello = func_name("Wisdom");
 
-// OR (Closure)
+// Lambda / Anonymous Function
+Function lambdaa = (int age) {
+  // Function is a class in Dart.
+
+  return age;
+};
+
+// OR (Closure) // this is also nameless
 
 var sayHelllo = (String name) => "$name is Saying hello";
 
 
-/*Only an expression—not a statement—can appear between the arrow (=>) and the 
-semicolon (;). For example, you can’t put an if statement there, but you can use 
-a conditional expression.*/
+/**
+ * 
+ * Only an expression—not a statement—can appear between the arrow (=>) and the 
+    semicolon (;). For example, you can’t put an if statement there, but you can use 
+    a conditional expression.
+*/

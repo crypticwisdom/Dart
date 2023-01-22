@@ -13,8 +13,8 @@ void main() {
   // The 'final' and 'const' keywords are used to keep the value of the variable static in the code base.
 
   /*
-      Difference between 'final' and 'const'.
-      - The 'final' keyword is used to hardcode the value of the variable and cannotbe altered in the future.
+      Differences between 'final' and 'const'.
+      - The 'final' keyword is used to hardcode the value of the variable and cannot be altered in the future.
       - The 'const' keyword behaves exactly like the 'final'keyword. The only difference between them is that
         - the 'const' keyword makes the variable constant from compile-time only.
 

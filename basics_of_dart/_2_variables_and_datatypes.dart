@@ -1,6 +1,7 @@
 void main() {
   /* 
-  Data Types
+  ----------------------------- Data Types ----------------------------------
+
     1. String: This is a sequence of characters. Written with a single or double quotes.
     2. number:
      - int: signed and unsigned numbers. e.g -1323, 123334
@@ -33,6 +34,14 @@ void main() {
       OR
 
       var name;
+
+      OR 
+
+      dynamic name = value;
+
+      OR
+
+      num number_value = 213.23;
   */
 
   String name = "Wisdom";
@@ -48,13 +57,40 @@ void main() {
 
   print("$hexValue");
 
-  // String Interpolation
-  print("Substituting values like '$surname' or '${isValid.runtimeType}' in or to a string "); // Example of string interpolation.
+  // String Interpolation. (Example)
+  print(
+      "Substituting values like '$surname' or '${isValid.runtimeType}' in or to a string ");
 
+  // Literals
+  // This is simply the value passed to any variable.
 
-  // Literals 
-  // This is a simply the value passed to any variable.
+  /// dynamic
+  /// This is used to declare variables that can be changed at any moment in the program.
+  /// If you did want to create a variable that's more dynamic, you'd use the dynamic keyword.
 
+  // e.g:
+  /// dynamic sd = 323;
+  ///
+  /// Note: this is not adviceable for use in your program.
+  ///
 
-  
+  /// num is a super class of both int and double. Which means you can use num
+  ///  when dealing with numbers that could be an integer or floating-point
+  /// number. They're best used when you don't know which of the types to be used.
+  ///
+  /// e.g:
+  /// num age = 32.32;
+  num age3 = 434;
+  print(age3);
+
+  // Some String Methods
+  String greeting = 'howdy';
+  print(greeting.split("")); // ['h', 'o', 'w', 'd', 'y']
+  print(greeting.indexOf('o')); // 1
+  greeting.contains('h');
+  greeting.isEmpty;
+
+  // The assert() function is an inbuilt function used to assert an expression to either true or false.
+  assert(greeting.length == 5); // true
+
 }

@@ -3,11 +3,12 @@ void main() {
   String? name;
 
   if (name == null) {
+    /// same as... 'name ?? expression;'
     print("Name is not specified and it is '$name'.");
   } else if (name == "wisdom") {
     print("Name is ${name}.");
   } else {
-    print("The Else block is ran.");
+    print("The else block is ran.");
   }
 
   // Conditional Expression
@@ -18,14 +19,12 @@ void main() {
   print(name); // output: Wisdom
   print("I am $age years old.");
 
-
   // ------------------- Switch Case Statement --------------------
   int cond1 = 1000;
   String cond2 = "string";
   const isTrue = true; // not allowed in a switch statement
   bool isFalse = false; // not allowed in a switch statement
   double floatP = 32.3; // not allowed in a switch statement
-
 
 // Only the String and int datatypes can be passed as a variable to the switch
   // statement.
@@ -45,8 +44,7 @@ void main() {
       print("default statement");
   }
 
-
-    /*
+  /*
 
       How the switch statement works:
       A sigle case block of code is ran when the variable passed to the switch statement
