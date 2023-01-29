@@ -12,9 +12,9 @@ void main() {
     - returnType functionName(parameters...) => expression; // Arrow Function. 
        /// (For functions that has only one expression).
        /// Note: The arrow function is used to make your code short.=> expr syntax is a shorthand for { return expr; }.
-    - (){
-
-    }; // Anonymous Function
+       
+    - (){}; // Anonymous Function. 'Function without a name'.
+    - var name = () => expression; // Anonymous function
 
 
     Notes:

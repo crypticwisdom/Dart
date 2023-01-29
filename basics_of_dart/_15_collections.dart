@@ -139,7 +139,6 @@ void main() {
   // Loop Through For Each
   dict.forEach((key, value) => print('Key is $key and value is $value'));
 
-
   // -- Properties --
   /// .keys()
   /// .values()
@@ -148,8 +147,8 @@ void main() {
   /// length
   /// keys.toList()
   /// values.toList()
-  /// 
-  /// 
+  ///
+  ///
   ///
   /// -- Some methods --
   /// .containsKey('key');
@@ -157,27 +156,27 @@ void main() {
   /// .clear()
   /// .removeWhere() ------	Removes all elements from the Map if condition is valid.
 
-
-
-
-
-
-/// -------------- The Where ----------------
-/// You can use where in list, set, map to filter specific items. 
-/// It returns a new list containing all the elements that satisfy the 
-/// condition. This is also called Where Filter in dart.
-/// 
+  /// -------------- The Where ----------------
+  /// You can use where in list, set, map to filter specific items.
+  /// It returns a new list containing all the elements that satisfy the
+  /// condition. This is also called Where Filter in dart.
+  ///
   List<int> numbers = [2, 4, 6, 8, 10, 11, 12, 13, 14];
 
   List<int> oddNumbers = numbers.where((number) => number.isOdd).toList();
   print(oddNumbers);
 
-
   // ---------------------------------------
 
-  
-  List<String> days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
-    "Friday", "Saturday"];
+  List<String> days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ];
 
   List<String> startWithS =
       days.where((element) => element.startsWith("S")).toList();
@@ -185,11 +184,15 @@ void main() {
   print(startWithS);
 
   // -----------------------------
-  Map<String, double> mathMarks = { "ram": 30, "mark": 32, "harry": 88, 
-  "raj": 69, "john": 15};
+  Map<String, double> mathMarks = {
+    "ram": 30,
+    "mark": 32,
+    "harry": 88,
+    "raj": 69,
+    "john": 15
+  };
 
   mathMarks.removeWhere((key, value) => value < 32);
 
   print(mathMarks);
-
 }

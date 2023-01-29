@@ -19,9 +19,9 @@ void main() {
       was raised.
 
       Custom Exception Class:
-      Example: Suppose a user was supposed to enter a positive amount into your program 
-      but he/she enters a negative amount, so in that case i should notify the 
-      user that he/she cannot enter a negative amount. So for that case i should 
+      Example: Suppose a user was supposed to enter a positive number into your program 
+      but he/she enters a negative number, so in that case i should notify the 
+      user that he/she cannot enter a negative number. So for that case i should 
       throw an Exception.
 
 
@@ -122,6 +122,6 @@ void calc(int numb) {
   if (numb < 0) {
     throw customException();
   } else {
-    print("No erro");
+    print("No error");
   }
 }

@@ -1,12 +1,9 @@
 main() {
   // Operators:
 
-  // Arithemetic Operators: + - / * %
-  // ~/ integer division
-  
+  // Arithemetic Operators: + - / * %, ~/ (integer division)
 
-  // Comparison Operators: [==, !=, <, >]
-
+  // Comparison Operators: [==, !=, <, >, <=, >=]
 
   // Type Test Operators: as, is, is!
   // 'is' and 'is!' are used to check type of a value, e.g: "wisd" is String -> true
@@ -25,16 +22,17 @@ main() {
   List gh = person['cars'] as List;
 
   /**
-   * 
+   * ----------------------------------------------------------
    *     Assignment Operator:
-   *     [<=, >=, =, *=, +=, -+, /+, ~/=, |=, %=]
+   * ----------------------------------------------------------
+   *     [<=, >=, =, *=, +=, -=, /+, ~/=, |=, %=]
    * 
    * 
    *     Logical Operators:
    *     [&&, ||, !expr]
    * 
    * ----------------------------------------------------------
-   *     NULL-AWARE:
+   *     NULL-AWARE Operators:
    * ----------------------------------------------------------
    *     '?.': 
    *         e.g final String name = user?.name; 
@@ -53,9 +51,7 @@ main() {
    *         e.g: String name;
    *              name ??= 8;
    * 
-   *        Meaning: Assign '8' to 'name' is 'name' is 'null'.
-   * 
-   * 
+   *        Meaning: Assign '8' to 'name' if 'name' is 'null'.
    * 
   */
 }

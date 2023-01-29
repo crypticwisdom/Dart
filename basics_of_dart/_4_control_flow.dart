@@ -2,8 +2,10 @@ void main() {
   // if - else if - else : Used for decision making.
   String? name;
 
+  /// if (marks < 0) throw MarkException().errorMessage();
   if (name == null) {
     /// same as... 'name ?? expression;'
+    name ??= "Ndubuisi";
     print("Name is not specified and it is '$name'.");
   } else if (name == "wisdom") {
     print("Name is ${name}.");
