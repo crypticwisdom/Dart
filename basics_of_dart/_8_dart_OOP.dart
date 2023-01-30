@@ -5,7 +5,6 @@ void main() {
   // Instance variable or Field variables.
   // define function in a class (Method).
 
-
   // - Constructors
   // Default Constructor.
   // Parameterized Constructor.
@@ -42,11 +41,10 @@ void main() {
   print(anime.get_isHealthy);
   Dog dog = new Dog();
   print(dog.speak());
-  
 }
 
 class TestClass {
-  String? name; // An example of a Instance / Field Vaiable;
+  String? name; // This is an example of an Instance / Field Vaiable;
   /* 
     Each Instance variable name is used as a Default Getter and Setter for itself.
     Which means we can set its value by saying '.field_name = value' and also get it's value by saying '.field_name'.
@@ -63,7 +61,10 @@ class TestClass {
         during object instantiation, depending on the type of parameter passed.
       - Any code inside this block will be executed first, before any other code runs.
       - The return keywod is not needed.
+      - Default constructor has no parameter in it.
     */
+
+    // The 'this' keyword is used to refer to the current object instance.
 
     this.name = name;
     this.age = age;
@@ -94,7 +95,7 @@ class TestClass {
 // https://www.geeksforgeeks.org/getter-and-setter-methods-in-dart/
 
   void set set_age(int a) {
-    // This a setter method, used to set the value.
+    // This is a setter method, used to set the value.
     // The return_type must be 'void' and it doesn't require the 'return' keyword.
     // the 'a' parameter value is passed when we do 'object.set_age = here;'
     /**
@@ -159,10 +160,9 @@ class Animal {
   /**
    * 
    * 1. Set method is used to set a value prefferably to a Private field variable say '_variable',
-   *    then, the method returns the private field variable '_variable'.
    *    It takes in a single parameter, through a field varialbe. say 'class_object.set_variable = value_which_will_be_the_parameter'.
 
-   * 2. Get is used to return the value of the just-modified private field variable return '_variable'.
+   * 2. Get is used to return the value of the just-modified private field variable '_variable'.
    * 
   */
   bool get get_isHealthy {
@@ -191,9 +191,7 @@ class Dog extends Animal {
     // Whenever we define a Constructor there is always an implicit call to the parent Constructor.
     // There's always a ':super()' just as above, whenever a constructor is defined.
     // We only manually call the ':super()' when the Parent's Constructor is parameterized.
-    // - In the Dart the Parent Constructor is called first before the Child Constructor.
+    // - In Dart the Parent Constructor is called first before the Child Constructor.
     // - ':super()' this is used to call the Parent Constructor.
   }
 }
-
-

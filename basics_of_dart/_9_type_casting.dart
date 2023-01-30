@@ -26,5 +26,4 @@ main() {
   // Check for type [is, is!]
   int a = int.parse(age);
   print(a is! String);
-  
 }

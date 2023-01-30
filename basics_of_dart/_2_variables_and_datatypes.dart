@@ -93,5 +93,4 @@ void main() {
 
   // The assert() function is an inbuilt function used to assert an expression to either true or false.
   assert(greeting.length == 5); // true
-
 }

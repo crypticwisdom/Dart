@@ -1,4 +1,12 @@
 main() {
+  /// Previously you learned how to define a class. These classes are concrete
+  /// classes. You can create an object of concrete classes, but you cannot
+  /// create an object of abstract classes.
+  ///
+  ///
+  /// Abstract classes are classes that cannot be initialized. It is used to
+  /// define the behavior of a class that can be inherited by other classes.
+  /// An abstract class is declared using the keyword abstract.
   NormalClass nm = new NormalClass();
 
   nm.abstractMethod("wisdom");
@@ -18,11 +26,9 @@ abstract class AbstractClass {
   // 3. Abstract classes can have Abstract Methods, Normal Methods and Instance Variable as well.
   // 4. Abstract classes can be inherited 'extends' while an Interface can be implemented 'implements'
 
-
   void newFunction(int a, [int? b]) {
     print("${a} ${b ?? 213}");
   }
-
 }
 
 // Extending an Abstract Class.
@@ -40,7 +46,6 @@ class NormalClass extends AbstractClass {
     print("This is an Abstract Method");
     return 10002;
   }
-
 }
 
 abstract class MyAbstractClass {
@@ -48,7 +53,6 @@ abstract class MyAbstractClass {
 }
 
 class Name extends MyAbstractClass {
-
   int a() {
     return 3;
   }
