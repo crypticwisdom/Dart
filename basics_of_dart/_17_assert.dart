@@ -6,8 +6,8 @@ void main() {
 
   var age = 22;
   assert(age == 22, "Error");
-  List<String> ll = ["32", "4", "5"];
 
+  List<String> ll = ["32", "4", "5"];
   print(ll.where((element) => element.length == 2));
 
   /// Note: The assert(condition) method only runs in development mode.

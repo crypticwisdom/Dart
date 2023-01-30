@@ -13,7 +13,8 @@ void main() {
       specify the nullable operator '?' after the type and before specifying the variable name.
           - String? name; -> null
           - int? age = null;
-          - var age; // doesn't need the '?' operator, because the compiler will automatically inffer a null type to it.
+          - var age; // doesn't need the '?' operator, because the compiler will
+           automatically inffer a null type to it.
   */
 
   /* ------------------------Variable Declaration----------------------------
@@ -53,7 +54,7 @@ void main() {
   bool isValid = true;
 
   var surname = 'Nwachukwu'; // Type inferred variable, the datatype of this
-  // valiable will be inferred by the Compiler.
+  // variable will be inferred by the Compiler.
 
   print("$hexValue");
 

@@ -52,7 +52,6 @@ void main() {
     - You should follow the lowerCamelCase naming convention while naming function.
     - You should follow the lowerCamelCase naming convention while naming function parameters.
 
-
   */
 
   print(getArea(3, 4));

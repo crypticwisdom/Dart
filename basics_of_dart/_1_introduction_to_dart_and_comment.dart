@@ -34,9 +34,9 @@ void main(List<String> args) {
 
   */
 
-  // Second type of commenting.
+  // Second type of commenting. //
 
-  /// Comment for documenting.
+  /// Comment for documenting. ///
 
   /*
     

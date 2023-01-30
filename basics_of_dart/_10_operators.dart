@@ -45,7 +45,7 @@ main() {
    * ---------------------------------------------------------
    *     '??': 
    *         e.g bool isValid = user ?? true;
-   *            Meaning: Assign 'true' to isValid variable if user is 'null'.
+   *            Meaning: run 'true' to isValid variable if user is 'null'.
    *         
    * 
    * ---------------------------------------------------------
@@ -53,7 +53,7 @@ main() {
    *         e.g: String name;
    *              name ??= 8;
    * 
-   *        Meaning: Assign '8' to 'name' is 'name' is 'null'.
+   *        Meaning: Assign '8' to 'name' if 'name' is 'null'.
    * 
    * 
    * 

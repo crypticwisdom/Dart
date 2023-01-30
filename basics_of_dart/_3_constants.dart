@@ -2,7 +2,7 @@ void main() {
   // Constants are variable that doesn't change.
 
   // Constant Declaration:
-  // Contants are declared with the 'final' OR 'const' dart keyword.
+  // Contants are declared with the 'final' OR 'const' keyword.
 
   final PI1 = 3.14; // Constants can be declared with or without a datatype.
   final double PI2 = 3.14; // Constants can be declared with a datatype.

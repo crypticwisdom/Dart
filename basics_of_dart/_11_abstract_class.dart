@@ -27,8 +27,7 @@ abstract class AbstractClass {
 
 // Extending an Abstract Class.
 class NormalClass extends AbstractClass {
-
-    /**
+  /**
    * 
    * 1. When inheriting an Abstract Class that has an abstract method, you also need to
    *     override the default implementation.

@@ -13,7 +13,7 @@ void main() {
   // Constom constructor.
 
 
-// Task: Define some propertied and behavious of the Student.
+// Task: Define some properties and behavious of the Student.
   //  - student has an ID
 
   // ------------------------
