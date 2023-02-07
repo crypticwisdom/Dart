@@ -107,6 +107,6 @@ void main() {
   // File csv = new File('basics_of_dart/csv1.csv');
   // csv.createSync();
 
-  // csv.writeAsStringSync('name,age,email\n', mode: FileMode.append);
+  // csv.writeAsStringSync('name,age,email\n', mode: FileMode.append); 
   // csv.writeAsStringSync('Wisdom,23,crypticwisdom84@gmail.com\n', mode: FileMode.append);
   
