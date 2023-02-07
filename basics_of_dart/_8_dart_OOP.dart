@@ -1,3 +1,12 @@
+class Class2 {
+  String? name;
+  int? age;
+
+  void display() {
+    print("${this.name} - ${this.age}");
+  }
+}
+
 void main() {
   // Objectives:
   // - How to create class and objects.
@@ -10,7 +19,6 @@ void main() {
   // Parameterized Constructor.
   // Name Constructor.
   // Constom constructor.
-
 
 // Task: Define some properties and behavious of the Student.
   //  - student has an ID
@@ -166,7 +174,7 @@ class Animal {
    * 
   */
   bool get get_isHealthy {
-    print("Getting the 'isHealtyh' instance variable.");
+    print("Getting the 'isHealthy' instance variable.");
     return this._isHealthy;
   }
 
@@ -194,4 +202,19 @@ class Dog extends Animal {
     // - In Dart the Parent Constructor is called first before the Child Constructor.
     // - ':super()' this is used to call the Parent Constructor.
   }
+
+  /// --------------------------------------------
+  ///
+
+  Class2 lc = Class2(); 
+  
+}
+
+class NewClass {
+  // The class keyword is used for defining the class.
+  // ClassName is the name of the class and must start with capital letter.
+  // Body of the class consists of properties and functions.
+  // Properties are used to store the data. It is also known as fields or attributes.
+  // Functions are used to perform the operations. It is also known as methods.
+
 }

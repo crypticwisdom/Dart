@@ -16,7 +16,7 @@ void main() {
   // Conditional Expression
 
   int age = 22 < 100 ? 22 : 100; // Conditional Expression OR Tenary Expression.
-  name = name ?? "Wisdom"; // Null checking.
+  // name ?? "Wisdom"; // Null checking.
 
   print(name); // output: Wisdom
   print("I am $age years old.");
@@ -46,11 +46,12 @@ void main() {
       print("default statement");
   }
 
-  /*
-
-      How the switch statement works:
-      A sigle case block of code is ran when the variable passed to the switch statement
-      matches 1 of the switch cases, if no case matches the variable then, the default block is ran.
-
-    */
+  /**
+   * 
+   * How the switch statement works:
+   * A sigle case block of code is ran when the variable passed to the switch statement
+   * matches 1 of the switch cases, if no case matches the variable then, the default block is ran.
+   * 
+   * */
+   
 }

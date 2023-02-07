@@ -1,26 +1,28 @@
-import 'dart:math';
-
 void main() {
-  List<int?> my_list = [1, 2, null, 4];
-  print(my_list);
+  Person person = Person('Wisdom', 22, 'Software Developer');
+  print(person);
 
-  List<dynamic> m1 = [1, '3'];
-  print(m1);
+  final name;
+  print(name);
 
-  var m2 = [
-    122,
-    [
-      90,
-      0,
-      [9900, 988]
-    ],
-    3223.32,
-    12.2e21,
-    '212',
-    true
-  ];
+  const age = 323;
+  print(age);
 
-  m2.forEach((element) {
-    print(element);
-  });
+  //
+}
+
+class Person {
+  String? name;
+  int? age;
+  String? occupation;
+
+  Person(String name, int age, String occupation) {
+    this.name = name;
+    this.age = age;
+    this.occupation = occupation;
+  }
+
+  String toString() {
+    return "${this.name} is ${this.age} and he is a ${this.occupation}";
+  }
 }

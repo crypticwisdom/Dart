@@ -196,3 +196,127 @@ void main() {
 
   print(mathMarks);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import 'dart:io';
+
+// List<String> names = [
+//   'Wisdom',
+//   'George',
+//   'Kenneth',
+//   'Kingsley',
+//   'Confidence',
+//   'Destiny'
+// ];
+
+// Set<String> fruits = {"Apple", "Mango", "Orange"};
+
+// // double? input = stdin.readLineSync() as double?;
+// String input = stdin.readLineSync() as String;
+// List<double> expenses = [];
+
+// // ------------------------
+// List<String> days = [];
+// var l = ["Sunday", "op"];
+
+// // ---------------
+// class CatchNegativeValues implements Exception {
+//   String toString() {
+//     return "Cannot accept negative values";
+//   }
+// }
+
+// // -----------------------------
+// List<String> firends = [
+//   "Precious",
+//   "Daniel",
+//   "Quadri",
+//   "Gbenga",
+//   "Samuel",
+//   "Kenny"
+// ];
+
+// // -------------------------
+// Map<String, String> details = {
+//   "name": "Nwachukwu Wisdom",
+//   "address": "crypticwisdom84@gmail.com",
+//   "age": "22",
+//   "country": "Nigeria"
+// };
+
+// void main() {
+//   names.forEach((element) => print("${element} \n"));
+//   fruits.forEach((element) {
+//     print(element);
+//   });
+
+//   print("How many entries do you wish to enter ?: ");
+//   int number_of_etries = int.parse(stdin.readLineSync()!);
+
+//   try {
+//     if (number_of_etries < 1) {
+//       throw new CatchNegativeValues();
+//     }
+//   } on CatchNegativeValues {
+//     print(CatchNegativeValues().toString());
+//   }
+
+//   try {
+//     for (int n = 1; n <= number_of_etries; n++) {
+//       print("Please enter expense number ${n}. \n");
+//       double expense = double.parse(stdin.readLineSync()!);
+//       expenses.add(expense);
+//       print(
+//           "${expense} has been added to record, ${number_of_etries - n} more records remaining. \n");
+//     }
+//   } catch (error) {
+//     print("--- Error ---: ${error}");
+//   }
+
+//   expenses.forEach((element) {
+//     print(element);
+//   });
+
+//   days.addAll(l);
+//   print(days);
+
+//   Iterable<String> result = firends.where((element) => element.startsWith("P"));
+//   print(result.runtimeType);
+
+//   details.update('country', (value) => "null");
+//   details['country'] = "Canada";
+//   print(details);
+
+//   var res2 = details.values;
+//   print(res2.map((e) => (e.length > 4) ? e : null));
+  
+// }
