@@ -13,8 +13,8 @@ void main() {
       specify the nullable operator '?' after the type and before specifying the variable name.
           - String? name; -> null
           - int? age = null;
-          - var age; // doesn't need the '?' operator, because the compiler will
-           automatically inffer a null type to it.
+
+          - var age; // doesn't need the '?' operator, because the compiler will automatically infer a null type to it.
   */
 
   /* ------------------------Variable Declaration----------------------------
