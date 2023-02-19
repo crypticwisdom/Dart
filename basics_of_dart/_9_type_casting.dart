@@ -11,7 +11,7 @@ main() {
   var age = '89';
   print(int.parse(age));
 
-  // 2. String to double
+  // 2. double to int
   double ina = 233.3;
   print(ina.toInt());
 

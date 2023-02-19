@@ -18,6 +18,11 @@ void main() {
   int age = 22 < 100 ? 22 : 100; // Conditional Expression OR Tenary Expression.
   // name ?? "Wisdom"; // Null checking.
 
+  if (name == '')
+    print('object');
+  else
+    print('-------');
+
   print(name); // output: Wisdom
   print("I am $age years old.");
 
@@ -53,5 +58,4 @@ void main() {
    * matches 1 of the switch cases, if no case matches the variable then, the default block is ran.
    * 
    * */
-   
 }

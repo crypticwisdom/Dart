@@ -91,7 +91,7 @@ String parameterWithNoDataType(n, g) {
 }
 
 int sas({int named = 9}) {
-  //n amed parameters are optional during invokation unless it is made required, with the 'require keyword.
+  // named parameters are optional during invokation unless it is made required, with the 'require keyword.
   return 4;
 }
 

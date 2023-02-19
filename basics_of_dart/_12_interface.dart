@@ -7,7 +7,7 @@ main() {
  * 
  * 1. 'implements' keyword is used to make an Interface.
  * 2. Interfaces are used to provide the user with the BluePrint of the class that
- *    any class should follow if its interfaces that class i.e if a class inherits another 
+ *    any class should follow if its interfaces that class i.e if a class interfaces another 
  *    it should redefine each function present in the interfaced class in it's way.
  * Interface are nothing but a set of methods defined for an object.
  * 
@@ -35,7 +35,6 @@ class MyOtherInterface {
 }
 
 class Class1 implements MyInterface, MyOtherInterface {
-  
   @override
   void run() {
     // TODO: implement run
