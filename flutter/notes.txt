@@ -1,0 +1,27 @@
+- Everything in flutter is a Widget.
+- Flutter has this sdk which is a tool that compiles the code to a native platform code.
+- My app's ui is a widget tree because everything is a widget.
+
+
+
+Directories:
+- .vscode : Holds vscode settings. you don't need to touch.
+- .idea: auto generate, you don't need to touch.
+- .gitignore: for git.
+- Andriod: hold the complete android flutter code. not a folder i need to work on.
+- build: holds my overall flutter project.
+- ios: this folder will not be visible on 'Windows' we rarely use it.
+- lib: used for writting out project.
+- test: used for writting test
+- .metadata: auto managed by flutter.
+- .packages: auto managed by flutter.
+- flutter_com...:auto managed by flutter.
+- pubspec.yaml: used for managing our project dependencies.
+- pubspec.lock: it is automatically generated based on the 'pubspec.yaml' file.
+
+
+- Widgets are components, which are the building block of my user iinterface.
+e.g bottons, navbar, infact the whole app is wrapped iin a widget.
+
+- every Widget needs to extend StatelessWidget or StatefulWidget.
+- every widget is a dart class that specifies the buiild() method
